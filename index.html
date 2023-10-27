@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Theme Switcher</title>
   </head>
-  <body>
+  <body onload="set_style_from_cookie()">
     <button
       type="button"
       onclick="switch_style('blue');return false;"
