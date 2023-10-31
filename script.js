@@ -1,4 +1,4 @@
-switchStyle(theme) {
-  localStorage.setItem({"theme" , theme);
-}
-localStorage.setItem("theme" , theme);
+// switchStyle(theme) {
+//   localStorage.setItem({"theme" , theme);
+// }
+localStorage.setItem("theme" , "blue");
