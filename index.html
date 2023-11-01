@@ -2,36 +2,19 @@
 <html lang="en">
   <head>
     <link id="theme" rel="stylesheet" type="text/css" href="css/style.css" />
-    
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Theme Switcher</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
   </head>
+
   <body>
-    <button
-      type="button"
-      onclick="switch_style('blue');return false;"
-      
-      id="blue"
-    >
-      Blue Theme
-    </button>
-    <button
-      type="button"
-      onclick="switch_style('pink');return false;"
-      
-      id="pink"
-    >
-      Pink Theme
-    </button>
-    <button
-      type="button"
-      onclick="switch_style('green');return false;"
-  
-      id="green"
-    >
-      Green Theme
-    </button>
+    <div id = container>
+    <button id="blue">Blue Theme</button>
+    <button id="pink">Pink Theme</button>
+    <button id="green">Green Theme</button>
     <h1>Hello World</h1>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
@@ -39,5 +22,6 @@
       quas quaerat dolores minima! Autem, consectetur.
     </p>
     <script src="script.js"></script>
+  </div>
   </body>
 </html>
